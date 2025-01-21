@@ -16,6 +16,7 @@ namespace DAL.EF
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<StudentRecord> StudentRecords { get; set; }
         public DbSet<Attendence> Attendences { get; set; }
+        public DbSet<Token> Tokens { get; set; }
 
     }
 }
